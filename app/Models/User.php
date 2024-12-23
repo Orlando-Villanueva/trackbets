@@ -45,4 +45,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function betSlips()
+{
+    return $this->hasMany(BetSlip::class);
+}
 }
