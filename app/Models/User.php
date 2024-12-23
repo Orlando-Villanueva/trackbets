@@ -47,7 +47,7 @@ class User extends Authenticatable
     }
 
     public function betSlips()
-{
-    return $this->hasMany(BetSlip::class);
-}
+    {
+        return $this->hasMany(BetSlip::class);
+    }
 }
