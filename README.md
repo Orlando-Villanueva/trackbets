@@ -11,6 +11,9 @@
 
 A Laravel and Vue application for managing soccer bets and tracking user profile stats. This project includes features for user authentication, bet management, and detailed statistics.
 
+![image](https://github.com/user-attachments/assets/8fb79417-b376-4be5-8084-e951193e09ca)
+
+
 ---
 
 ## Features
