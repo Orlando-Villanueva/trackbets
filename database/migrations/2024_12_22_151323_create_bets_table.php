@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('bet_type');        // 1X2, over/under, etc
             $table->string('selection');        // home, away, draw, over 2.5, etc
             $table->decimal('odds', 10, 2);
-            $table->string('status')->default('pending');  // pending, won, lost
+            $table->string('status', ['pending', 'won', 'lost'])->default('pending');  // pending, won, lost
             $table->timestamps();
         });
     }

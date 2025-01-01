@@ -17,7 +17,7 @@ return new class extends Migration
             $table->decimal('total_stake', 10, 2);
             $table->decimal('total_potential_payout', 10, 2);
             $table->decimal('total_odds', 10, 2);
-            $table->string('status')->default('pending'); // pending, won, lost, partial
+            $table->string('status', ['pending', 'won', 'lost', 'partial'])->default('pending');
             $table->timestamps();
         });
     }
