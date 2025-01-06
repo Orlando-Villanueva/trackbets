@@ -30,7 +30,6 @@ Ensure you have the following installed:
 - PHP (>=8.1)
 - Composer
 - Node.js and npm
-- MySQL or another supported database
 
 ---
 
