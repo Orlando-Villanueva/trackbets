@@ -50,6 +50,7 @@ Ensure you have the following installed:
     - Update .env with your database and other configuration settings.
     ```bash
     cp .env.example .env
+    php artisan key:generate
 
 5. **Run migrations**
     ```bash
